@@ -1,0 +1,99 @@
+  /*  Home page Start */
+
+.bg-img{
+    background-image: url("../img/back.jpg");
+    height: 100vh;
+    text-align: center;
+    color:white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: cover;
+}
+
+.intro{
+    padding: 10% 0 0 0;
+    position: absolute;
+    color: white;
+}
+.tb{
+    font-size: 2rem;
+}
+.intro h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+  
+  /*  Home page End */
+
+  /*  Add page Start */
+  
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #a4a1a1;
+    border-radius: 5px;
+  }
+
+  .form-container h1 {
+    text-align: center;
+  }
+
+  .form-container button[type="submit"] {
+    width: 100%;
+  }
+
+  .btn:hover{
+  color: white;
+  background-color: #0c7a38;
+  }
+
+  /*  Add page End */
+
+
+  /*  Search page Start */
+
+  #results {
+    margin-top: 20px;
+    
+  }
+
+  #resTab {
+    display: none;
+  }
+
+  #noRes {
+    display: none;
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-top: 10px;
+  }
+
+  #resTab table {
+    border-color: rgb(210, 205, 205);
+  }
+
+    /*  Search page End */
+
+
+    
+  /*  Responsive Screen */
+
+  @media only screen and (max-width: 600px) {
+    .head{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    
+    .intro{
+        padding: 20% 0 0 0;
+    }
+    .tb{
+        font-size: 2rem;
+    }
+    .intro h1{
+        font-size: 2.5rem;
+    }
+}
